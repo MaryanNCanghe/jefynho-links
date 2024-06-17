@@ -1,0 +1,71 @@
+/* src/components/LinkSection.css */
+
+.link-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 15px;
+}
+
+.link-row:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.link-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space items evenly along the row */
+  margin-bottom: 10px; /* Adjust margin between rows as needed */
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.link-content {
+  display: flex;
+  align-items: center;
+}
+
+.link-content img.link-icon {
+  width: 40%;/* Adjust icon size as needed */
+  height: 100%; /* Adjust icon size as needed */
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.play-box {
+  padding: 10px;
+  margin: 10px; /* Adjust padding as needed */
+  background-color: gray; /* Background color */
+  color: black; /* Text color */
+  border-radius: 4px; /* Border radius */
+  margin-left: 10px; /* Space between link and play box */
+  cursor:pointer;
+}
+
+.play-box:hover {
+  background-color: black; /* Background color on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  curso:point;
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  .play-box {
+    padding: 12px; /* Adjust padding as needed */
+    background-color: gray; /* Background color */
+    color: black; /* Text color */
+    border-radius: 4px; /* Border radius */
+    margin-left: 10p
+  }
+
+  .link-section {
+    padding-top: 10px;
+  }
+ 
+}

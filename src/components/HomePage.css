@@ -1,0 +1,11 @@
+.home-page {
+width:auto;
+
+}
+/* src/components/HomePage.css */
+
+.home-page .page{
+    margin: 0; /* Remove any default margins */
+    padding: 0 10px; /* Optional: add some padding to the sides if needed */
+  }
+  
